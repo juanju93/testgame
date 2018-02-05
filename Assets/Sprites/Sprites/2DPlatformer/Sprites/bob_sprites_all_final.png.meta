@@ -1,0 +1,476 @@
+fileFormatVersion: 2
+guid: 6ba5f8b0fdb1f104382abd1609d0f645
+timeCreated: 1505198087
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bob_sprites_all_final_0
+    21300002: bob_sprites_all_final_1
+    21300004: bob_sprites_all_final_2
+    21300006: bob_sprites_all_final_3
+    21300008: bob_sprites_all_final_4
+    21300010: bob_sprites_all_final_5
+    21300012: bob_sprites_all_final_6
+    21300014: bob_sprites_all_final_7
+    21300016: bob_sprites_all_final_8
+    21300018: bob_sprites_all_final_9
+    21300020: bob_sprites_all_final_10
+    21300022: bob_sprites_all_final_11
+    21300024: bob_sprites_all_final_12
+    21300026: bob_sprites_all_final_13
+    21300028: bob_sprites_all_final_14
+    21300030: bob_sprites_all_final_15
+    21300032: bob_sprites_all_final_16
+    21300034: bob_sprites_all_final_17
+    21300036: bob_sprites_all_final_18
+    21300038: bob_sprites_all_final_19
+    21300040: bob_sprites_all_final_20
+    21300042: bob_sprites_all_final_21
+    21300044: bob_sprites_all_final_22
+    21300046: bob_sprites_all_final_23
+    21300048: bob_sprites_all_final_24
+    21300050: bob_sprites_all_final_25
+    21300052: bob_sprites_all_final_26
+    21300054: bob_sprites_all_final_27
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bob_sprites_all_final_0
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1586
+        width: 277
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bob_sprites_all_final_1
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1600
+        width: 253
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bob_sprites_all_final_2
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1600
+        width: 266
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bob_sprites_all_final_3
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 1595
+        width: 276
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bob_sprites_all_final_4
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 1591
+        width: 257
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bob_sprites_all_final_5
+      rect:
+        serializedVersion: 2
+        x: 2355
+        y: 1591
+        width: 270
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bob_sprites_all_final_6
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1062
+        width: 221
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bob_sprites_all_final_7
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1072
+        width: 347
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bob_sprites_all_final_8
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 1068
+        width: 298
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bob_sprites_all_final_9
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 1062
+        width: 221
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bob_sprites_all_final_10
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 1297
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bob_sprites_all_final_11
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 1064
+        width: 230
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bob_sprites_all_final_12
+      rect:
+        serializedVersion: 2
+        x: 2330
+        y: 1064
+        width: 263
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bob_sprites_all_final_13
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 530
+        width: 277
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bob_sprites_all_final_14
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 653
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bob_sprites_all_final_15
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 530
+        width: 278
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bob_sprites_all_final_16
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 653
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bob_sprites_all_final_17
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 541
+        width: 266
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bob_sprites_all_final_18
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 537
+        width: 276
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bob_sprites_all_final_19
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 535
+        width: 257
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bob_sprites_all_final_20
+      rect:
+        serializedVersion: 2
+        x: 2324
+        y: 531
+        width: 271
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bob_sprites_all_final_21
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 6
+        width: 222
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bob_sprites_all_final_22
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 7
+        width: 264
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bob_sprites_all_final_23
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 7
+        width: 229
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bob_sprites_all_final_24
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 240
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bob_sprites_all_final_25
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 6
+        width: 223
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bob_sprites_all_final_26
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 12
+        width: 298
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bob_sprites_all_final_27
+      rect:
+        serializedVersion: 2
+        x: 2333
+        y: 15
+        width: 348
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

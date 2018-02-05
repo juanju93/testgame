@@ -1,0 +1,1243 @@
+fileFormatVersion: 2
+guid: b96dabd87658d254386b11536c6e138b
+timeCreated: 1513323275
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: cavw side_0
+    21300002: cavw side_1
+    21300004: cavw side_2
+    21300006: cavw side_3
+    21300008: cavw side_4
+    21300010: cavw side_5
+    21300012: cavw side_6
+    21300014: cavw side_7
+    21300016: cavw side_8
+    21300018: cavw side_9
+    21300020: cavw side_10
+    21300022: cavw side_11
+    21300024: cavw side_12
+    21300026: cavw side_13
+    21300028: cavw side_14
+    21300030: cavw side_15
+    21300032: cavw side_16
+    21300034: cavw side_17
+    21300036: cavw side_18
+    21300038: cavw side_19
+    21300040: cavw side_20
+    21300042: cavw side_21
+    21300044: cavw side_22
+    21300046: cavw side_23
+    21300048: cavw side_24
+    21300050: cavw side_25
+    21300052: cavw side_26
+    21300054: cavw side_27
+    21300056: cavw side_28
+    21300058: cavw side_29
+    21300060: cavw side_30
+    21300062: cavw side_31
+    21300064: cavw side_32
+    21300066: cavw side_33
+    21300068: cavw side_34
+    21300070: cavw side_35
+    21300072: cavw side_36
+    21300074: cavw side_37
+    21300076: cavw side_38
+    21300078: cavw side_39
+    21300080: cavw side_40
+    21300082: cavw side_41
+    21300084: cavw side_42
+    21300086: cavw side_43
+    21300088: cavw side_44
+    21300090: cavw side_45
+    21300092: cavw side_46
+    21300094: cavw side_47
+    21300096: cavw side_48
+    21300098: cavw side_49
+    21300100: cavw side_50
+    21300102: cavw side_51
+    21300104: cavw side_52
+    21300106: cavw side_53
+    21300108: cavw side_54
+    21300110: cavw side_55
+    21300112: cavw side_56
+    21300114: cavw side_57
+    21300116: cavw side_58
+    21300118: cavw side_59
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cavw side_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 651
+        width: 150
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 651
+        width: 150
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_2
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 651
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_3
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 651
+        width: 150
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_4
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 651
+        width: 150
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_5
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 651
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_6
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 651
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_7
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 651
+        width: 150
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_8
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 651
+        width: 150
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_9
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 651
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_10
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 500
+        width: 144
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_11
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 500
+        width: 150
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_12
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 500
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_13
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 500
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_14
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 500
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_15
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 500
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_16
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 500
+        width: 144
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_17
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 585
+        width: 150
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_18
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 500
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_19
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 615
+        width: 150
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_20
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 616
+        width: 150
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_21
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 500
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_22
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 349
+        width: 145
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_23
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 349
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_24
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 349
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_25
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 349
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_26
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 349
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_27
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 349
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_28
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 349
+        width: 56
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_29
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 482
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_30
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 486
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_31
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 397
+        width: 103
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_32
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 397
+        width: 150
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_33
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 398
+        width: 110
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_34
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 228
+        width: 150
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_35
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 349
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_36
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 316
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_37
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 211
+        width: 111
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_38
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 211
+        width: 95
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_39
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 214
+        width: 27
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_40
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 220
+        width: 64
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_41
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 209
+        width: 82
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_42
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 222
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_43
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 223
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_44
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 271
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_45
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 226
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_46
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 227
+        width: 103
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_47
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 217
+        width: 150
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_48
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 225
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_49
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 221
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_50
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 224
+        width: 58
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_51
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 146
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_52
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 118
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_53
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 74
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_54
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 64
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_55
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 67
+        width: 38
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_56
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 68
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_57
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 68
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_58
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 66
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cavw side_59
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 67
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline:
+    - - {x: -487.5, y: -333}
+      - {x: -485.5, y: -337}
+      - {x: -484.5, y: -338}
+      - {x: -462.5, y: -338}
+      - {x: -455.5, y: -335}
+      - {x: -455.5, y: -323}
+      - {x: -457.5, y: -320}
+      - {x: -463.5, y: -313}
+      - {x: -473.5, y: -313}
+      - {x: -487.5, y: -322}
+    - - {x: -175.5, y: -326}
+      - {x: -180.5, y: -330}
+      - {x: -180.5, y: -333}
+      - {x: -179.5, y: -335}
+      - {x: -176.5, y: -336}
+      - {x: -161.5, y: -336}
+      - {x: -157.5, y: -333}
+      - {x: -157.5, y: -330}
+      - {x: -161.5, y: -326}
+    - - {x: -336.5, y: -312}
+      - {x: -342.5, y: -314}
+      - {x: -342.5, y: -328}
+      - {x: -328.5, y: -335}
+      - {x: -305.5, y: -335}
+      - {x: -300.5, y: -325}
+      - {x: -300.5, y: -312}
+    - - {x: -151.5, y: -335}
+      - {x: -146.5, y: -335}
+      - {x: -143.5, y: -334}
+      - {x: -143.5, y: -326}
+      - {x: -152.5, y: -326}
+      - {x: -154.5, y: -327}
+      - {x: -154.5, y: -331}
+    - - {x: -201.5, y: -323}
+      - {x: -202.5, y: -327}
+      - {x: -202.5, y: -334}
+      - {x: -182.5, y: -334}
+      - {x: -182.5, y: -323}
+    - - {x: -632.5, y: -324}
+      - {x: -631.5, y: -328}
+      - {x: -612.5, y: -328}
+      - {x: -612.5, y: -299}
+      - {x: -618.5, y: -296}
+      - {x: -628.5, y: -296}
+      - {x: -632.5, y: -301}
+    - - {x: -765.5, y: -251}
+      - {x: -772.5, y: -251}
+      - {x: -774.5, y: -254}
+      - {x: -778.5, y: -268}
+      - {x: -778.5, y: -280}
+      - {x: -773.5, y: -284}
+      - {x: -764.5, y: -284}
+      - {x: -757.5, y: -281}
+      - {x: -757.5, y: -265}
+      - {x: -759.5, y: -254}
+    - - {x: -918.5, y: -220}
+      - {x: -927.5, y: -229}
+      - {x: -927.5, y: -251}
+      - {x: -924.5, y: -256}
+      - {x: -909.5, y: -256}
+      - {x: -907.5, y: -251}
+      - {x: -907.5, y: -234}
+      - {x: -913.5, y: -220}
+    - - {x: -283.5, y: -66}
+      - {x: -325.5, y: -75}
+      - {x: -354.5, y: -65}
+      - {x: -369.5, y: -65}
+      - {x: -369.5, y: -77}
+      - {x: -363.5, y: -123}
+      - {x: -347.5, y: -148}
+      - {x: -321.5, y: -192}
+      - {x: -319.5, y: -193}
+      - {x: -313.5, y: -193}
+      - {x: -294.5, y: -136}
+      - {x: -283.5, y: -112}
+    - - {x: -920.5, y: -71}
+      - {x: -945.5, y: -83}
+      - {x: -946.5, y: -87}
+      - {x: -974.5, y: -74}
+      - {x: -987.5, y: -73}
+      - {x: -993.5, y: -161}
+      - {x: -993.5, y: -167}
+      - {x: -975.5, y: -191}
+      - {x: -885.5, y: -191}
+      - {x: -878.5, y: -171}
+      - {x: -878.5, y: -107}
+      - {x: -901.5, y: -71}
+    - - {x: -743.5, y: -118}
+      - {x: -781.5, y: -79}
+      - {x: -811.5, y: -79}
+      - {x: -819.5, y: -81}
+      - {x: -840.5, y: -110}
+      - {x: -841.5, y: -119}
+      - {x: -841.5, y: -183}
+      - {x: -840.5, y: -191}
+      - {x: -759.5, y: -191}
+      - {x: -742.5, y: -178}
+      - {x: -742.5, y: -123}
+    - - {x: -629.5, y: -79}
+      - {x: -640.5, y: -83}
+      - {x: -643.5, y: -86}
+      - {x: -645.5, y: -109}
+      - {x: -645.5, y: -125}
+      - {x: -630.5, y: -188}
+      - {x: -623.5, y: -188}
+      - {x: -621.5, y: -187}
+      - {x: -614.5, y: -159}
+      - {x: -614.5, y: -79}
+    - - {x: 619.5, y: -77}
+      - {x: 611.5, y: -59}
+      - {x: 547.5, y: -57}
+      - {x: 426.5, y: -57}
+      - {x: 334.5, y: -61}
+      - {x: 317.5, y: -57}
+      - {x: 313.5, y: -57}
+      - {x: 275.5, y: -61}
+      - {x: 253.5, y: -71}
+      - {x: 250.5, y: -84}
+      - {x: 250.5, y: -111}
+      - {x: 293.5, y: -150}
+      - {x: 310.5, y: -161}
+      - {x: 330.5, y: -172}
+      - {x: 343.5, y: -176}
+      - {x: 395.5, y: -185}
+      - {x: 470.5, y: -185}
+      - {x: 494.5, y: -184}
+      - {x: 555.5, y: -164}
+      - {x: 610.5, y: -114}
+      - {x: 619.5, y: -102}
+    - - {x: -450.5, y: -142}
+      - {x: -446.5, y: -139}
+      - {x: -437.5, y: -105}
+      - {x: -437.5, y: -68}
+      - {x: -493.5, y: -68}
+      - {x: -505.5, y: -69}
+      - {x: -505.5, y: -140}
+      - {x: -489.5, y: -182}
+      - {x: -482.5, y: -182}
+      - {x: -481.5, y: -181}
+      - {x: -477.5, y: -163}
+      - {x: -463.5, y: -130}
+      - {x: -457.5, y: -140}
+    - - {x: 102.5, y: -150}
+      - {x: 87.5, y: -156}
+      - {x: 69.5, y: -172}
+      - {x: 69.5, y: -181}
+      - {x: 106.5, y: -181}
+      - {x: 124.5, y: -180}
+      - {x: 125.5, y: -178}
+      - {x: 125.5, y: -170}
+      - {x: 110.5, y: -150}
+    - - {x: -208.5, y: -117}
+      - {x: -219.5, y: -117}
+      - {x: -219.5, y: -144}
+      - {x: -210.5, y: -170}
+      - {x: -191.5, y: -180}
+      - {x: -179.5, y: -180}
+      - {x: -178.5, y: -179}
+      - {x: -177.5, y: -175}
+      - {x: -177.5, y: -137}
+      - {x: -188.5, y: -121}
+    - - {x: -134.5, y: -122}
+      - {x: -140.5, y: -122}
+      - {x: -157.5, y: -130}
+      - {x: -173.5, y: -159}
+      - {x: -174.5, y: -165}
+      - {x: -174.5, y: -178}
+      - {x: -172.5, y: -179}
+      - {x: -161.5, y: -179}
+      - {x: -144.5, y: -171}
+      - {x: -130.5, y: -155}
+      - {x: -130.5, y: -124}
+    - - {x: 170.5, y: -146}
+      - {x: 136.5, y: -157}
+      - {x: 131.5, y: -165}
+      - {x: 131.5, y: -178}
+      - {x: 185.5, y: -178}
+      - {x: 193.5, y: -165}
+      - {x: 193.5, y: -151}
+      - {x: 191.5, y: -146}
+    - - {x: -60.5, y: -131}
+      - {x: -70.5, y: -134}
+      - {x: -79.5, y: -151}
+      - {x: -79.5, y: -172}
+      - {x: -76.5, y: -177}
+      - {x: -54.5, y: -177}
+      - {x: -40.5, y: -166}
+      - {x: -40.5, y: -147}
+      - {x: -48.5, y: -131}
+    - - {x: -22.5, y: -113}
+      - {x: -23.5, y: -120}
+      - {x: -23.5, y: -146}
+      - {x: -16.5, y: -148}
+      - {x: -14.5, y: -148}
+      - {x: -11.5, y: -146}
+      - {x: -14.5, y: -149}
+      - {x: -19.5, y: -160}
+      - {x: 10.5, y: -176}
+      - {x: 26.5, y: -176}
+      - {x: 27.5, y: -174}
+      - {x: 27.5, y: -144}
+      - {x: 12.5, y: -113}
+    - - {x: 654.5, y: -158}
+      - {x: 656.5, y: -160}
+      - {x: 659.5, y: -159}
+      - {x: 659.5, y: -156}
+      - {x: 657.5, y: -154}
+      - {x: 654.5, y: -155}
+    - - {x: -134.5, y: -93}
+      - {x: -151.5, y: -93}
+      - {x: -161.5, y: -115}
+      - {x: -161.5, y: -131}
+      - {x: -152.5, y: -131}
+      - {x: -124.5, y: -119}
+      - {x: -122.5, y: -109}
+      - {x: -122.5, y: -99}
+      - {x: -123.5, y: -96}
+    - - {x: 785.5, y: -17}
+      - {x: 774.5, y: -43}
+      - {x: 774.5, y: -86}
+      - {x: 835.5, y: -86}
+      - {x: 846.5, y: -70}
+      - {x: 846.5, y: -43}
+      - {x: 821.5, y: -17}
+    - - {x: -107.5, y: 157}
+      - {x: -145.5, y: 199}
+      - {x: -221.5, y: 267}
+      - {x: -239.5, y: 273}
+      - {x: -316.5, y: 276}
+      - {x: -395.5, y: 276}
+      - {x: -414.5, y: 275}
+      - {x: -460.5, y: 276}
+      - {x: -531.5, y: 276}
+      - {x: -568.5, y: 270}
+      - {x: -602.5, y: 242}
+      - {x: -696.5, y: 147}
+      - {x: -699.5, y: 243}
+      - {x: -792.5, y: 249}
+      - {x: -851.5, y: 241}
+      - {x: -869.5, y: 246}
+      - {x: -891.5, y: 248}
+      - {x: -978.5, y: 243}
+      - {x: -996.5, y: 228}
+      - {x: -999.5, y: 166}
+      - {x: -999.5, y: -40}
+      - {x: -998.5, y: -53}
+      - {x: -97.5, y: -53}
+      - {x: -95.5, y: -51}
+      - {x: -95.5, y: 139}
+    - - {x: -25.5, y: 168}
+      - {x: -7.5, y: 180}
+      - {x: 88.5, y: 182}
+      - {x: 141.5, y: 182}
+      - {x: 199.5, y: 183}
+      - {x: 206.5, y: 186}
+      - {x: 206.5, y: 244}
+      - {x: 172.5, y: 245}
+      - {x: -48.5, y: 245}
+      - {x: -72.5, y: 242}
+      - {x: -92.5, y: 223}
+      - {x: -93.5, y: 162}
+      - {x: -93.5, y: -43}
+      - {x: -91.5, y: -53}
+      - {x: -36.5, y: -53}
+      - {x: -32.5, y: -28}
+      - {x: -31.5, y: 20}
+      - {x: -27.5, y: 147}
+    - - {x: 654.5, y: -43}
+      - {x: 656.5, y: -45}
+      - {x: 659.5, y: -44}
+      - {x: 659.5, y: -41}
+      - {x: 657.5, y: -39}
+      - {x: 654.5, y: -40}
+    - - {x: 619.5, y: 41}
+      - {x: 597.5, y: 57}
+      - {x: 582.5, y: 58}
+      - {x: 274.5, y: 58}
+      - {x: 255.5, y: 42}
+      - {x: 250.5, y: 32}
+      - {x: 250.5, y: 12}
+      - {x: 253.5, y: 6}
+      - {x: 270.5, y: -5}
+      - {x: 591.5, y: -5}
+      - {x: 600.5, y: -3}
+      - {x: 610.5, y: 5}
+      - {x: 619.5, y: 22}
+    - - {x: 365.5, y: 210}
+      - {x: 511.5, y: 214}
+      - {x: 637.5, y: 213}
+      - {x: 672.5, y: 195}
+      - {x: 780.5, y: 89}
+      - {x: 810.5, y: 81}
+      - {x: 810.5, y: 139}
+      - {x: 799.5, y: 157}
+      - {x: 696.5, y: 258}
+      - {x: 666.5, y: 272}
+      - {x: 619.5, y: 274}
+      - {x: 565.5, y: 276}
+      - {x: 520.5, y: 276}
+      - {x: 491.5, y: 275}
+      - {x: 445.5, y: 276}
+      - {x: 374.5, y: 276}
+      - {x: 337.5, y: 270}
+      - {x: 303.5, y: 242}
+      - {x: 291.5, y: 229}
+      - {x: 246.5, y: 183}
+      - {x: 219.5, y: 159}
+      - {x: 203.5, y: 137}
+      - {x: 203.5, y: 81}
+      - {x: 207.5, y: 80}
+      - {x: 222.5, y: 80}
+      - {x: 249.5, y: 99}
+      - {x: 290.5, y: 139}
+      - {x: 333.5, y: 178}
+    - - {x: -1002.5, y: 400}
+      - {x: -1002.5, y: 249}
+      - {x: -701.5, y: 249}
+      - {x: -699.5, y: 251}
+      - {x: -699.5, y: 400}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
