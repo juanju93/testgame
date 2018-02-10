@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ObjectiveSpawner : MonoBehaviour {
 
+	public GameObject cam;
+
 	public GameObject player;
 	public GameObject token;
 	public GameObject[] trees;
@@ -15,7 +17,7 @@ public class ObjectiveSpawner : MonoBehaviour {
 	private float treeTimer = 2.0f;
 	private float bigTreeTimer = 5.0f;
 
-	public AudioClip bigTreeFalling;
+	//public AudioClip bigTreeFalling;
 
 	// Update is called once per frame
 	void Update () {
@@ -63,9 +65,10 @@ public class ObjectiveSpawner : MonoBehaviour {
 			GameObject debree = Instantiate (debrees [(Random.Range (0, debrees.Length))], new Vector2 (spawnSpot.x + Random.Range (-1.0f, 1.0f), spawnSpot.y - 10), Quaternion.identity) as GameObject;
 		}
 		Debug.Log ("Complete");
+		iTween.ShakePosition (cam, new Vector3 (0.1f, 0.1f, 0.1f), 1);
 		yield return new WaitForSeconds (1);
 		Instantiate (bigTree, spawnSpot, Quaternion.identity);
-		player.GetComponent<AudioSource> ().PlayOneShot (bigTreeFalling, 3.0f);
+		//player.GetComponent<AudioSource> ().PlayOneShot (bigTreeFalling, 0.5f);
 		bigTreeTimer = Random.Range (15.0f, 45.0f);
 	}
 }
