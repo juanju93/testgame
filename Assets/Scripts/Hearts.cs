@@ -20,16 +20,16 @@ public class Hearts : MonoBehaviour
 			hearts [0].GetComponent<SpriteRenderer> ().sprite = heart;
 			hearts [1].GetComponent<SpriteRenderer> ().sprite = heart;
 			hearts [2].GetComponent<SpriteRenderer> ().sprite = emptyHeart;
+		}
 		if (PlayerCollide.health == 1) {
 			hearts [0].GetComponent<SpriteRenderer> ().sprite = heart;
-				hearts [1].GetComponent<SpriteRenderer> ().sprite = emptyHeart;
-				hearts [2].GetComponent<SpriteRenderer> ().sprite = emptyHeart;
+			hearts [1].GetComponent<SpriteRenderer> ().sprite = emptyHeart;
+			hearts [2].GetComponent<SpriteRenderer> ().sprite = emptyHeart;
 		}
 		if (PlayerCollide.health == 0) {
-				hearts [0].GetComponent<SpriteRenderer> ().sprite = emptyHeart;
-				hearts [1].GetComponent<SpriteRenderer> ().sprite = emptyHeart;
-				hearts [2].GetComponent<SpriteRenderer> ().sprite = emptyHeart;
-			}
+			hearts [0].GetComponent<SpriteRenderer> ().sprite = emptyHeart;
+			hearts [1].GetComponent<SpriteRenderer> ().sprite = emptyHeart;
+			hearts [2].GetComponent<SpriteRenderer> ().sprite = emptyHeart;
 		}
 	}
 }
