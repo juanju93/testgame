@@ -3,18 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class DestroyMe : MonoBehaviour {
+	public float aliveTime;
 
-	public float timeToDestroy;
-
-	void Start () {
-		if (timeToDestroy == null) {
-			timeToDestroy = 10;
-		}
-		StartCoroutine (DestroyThis ());	
+	void Awake (){
+		Destroy (gameObject, aliveTime);
 	}
-
-	IEnumerator DestroyThis(){
-		yield return new WaitForSeconds (timeToDestroy);
-		Destroy (gameObject);
+	void update (){
+		
 	}
 }

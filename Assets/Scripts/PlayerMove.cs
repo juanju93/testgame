@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour {
 
+	//use in Player to allow moving, check "IsTouch" if using mobile, uncheck "IsTouch" if using PC
+
 	private int xPos;
 	private float t = 0.1f;
 	public bool isTouch;

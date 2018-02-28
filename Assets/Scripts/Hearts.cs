@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Hearts : MonoBehaviour
 {
+	//put this in ~SCRIPTS gameobject, use size 3 and place sprites for hearts so they go from full to empty.
+	
     public GameObject[] hearts;
     public Sprite heart;
     public Sprite emptyHeart;

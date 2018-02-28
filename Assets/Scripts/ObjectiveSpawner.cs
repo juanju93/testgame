@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ObjectiveSpawner : MonoBehaviour {
 
+	//use in ~SCRIPTS gameobject and make stuff spawn.
+
 	public GameObject cam;
 	public GameObject player;
 	public GameObject token;
@@ -14,14 +16,24 @@ public class ObjectiveSpawner : MonoBehaviour {
 	public GameObject gapEmpty;
 	public GameObject invinclibilityToken;
 	public GameObject heartToken;
-	private float tokenTimer = 2.0f;
-	private float treeTimer = 2.0f;
-	private float bigTreeTimer = 5.0f;
-	private float gapTreesTimer = 10.0f;
-	private float bigTokenTimer = 3.0f;
-	private float invincibilityTokenTimer = 3.0f;
-	private float hearthTokenTimer = 5.0f;
+	private float tokenTimer;
+	private float treeTimer;
+	private float bigTreeTimer;
+	private float gapTreesTimer;
+	private float bigTokenTimer;
+	private float invincibilityTokenTimer;
+	private float hearthTokenTimer;
 	public AudioSource bigTreeFallingSound;
+
+	void Start (){
+		bigTreeTimer = Random.Range (20.0f, 40.0f); //random times between when objects are spawning.
+		treeTimer = Random.Range (1.0f, 4.0f);
+		tokenTimer = Random.Range (1f, 2.0f);
+		gapTreesTimer = Random.Range (30f, 80.0f);
+		bigTokenTimer = Random.Range (30.0f, 90.0f);
+		invincibilityTokenTimer = Random.Range (30.0f, 80.0f);
+		hearthTokenTimer = Random.Range (30.0f, 90.0f);
+	}
 
 	// Update is called once per frame
 	void Update () {
@@ -63,32 +75,35 @@ public class ObjectiveSpawner : MonoBehaviour {
 	}
 	void SpawnBigToken () {
 		GameObject bigTok = Instantiate (bigToken, new Vector2 (Random.Range (-6, 6), 6), Quaternion.identity) as GameObject;
-		bigTokenTimer = Random.Range (20.0f, 30.0f);
+		bigTokenTimer = Random.Range (30.0f, 90.0f);
 	}
 	void SpawnHearthToken(){
 		GameObject hearthTok = Instantiate (heartToken, new Vector2 (Random.Range (-6, 6), 6), Quaternion.identity) as GameObject;
-		hearthTokenTimer = Random.Range (30.0f, 60.0f);
+		hearthTokenTimer = Random.Range (30.0f, 90.0f);
 	}
 	void SpawnInvincibilityToken() {
 		GameObject inviTok = Instantiate (invinclibilityToken, new Vector2 (Random.Range (-6, 6), 6), Quaternion.identity) as GameObject;
-		invincibilityTokenTimer = Random.Range (30.0f, 60.0f);	
+		invincibilityTokenTimer = Random.Range (15.0f, 40.0f);	
 	}
 
 	void SpawnTree(){
 		GameObject tre = Instantiate (trees[(Random.Range(0, trees.Length))],new Vector2(Random.Range(-7, 7), 10),Quaternion.identity) as GameObject;
-		if (PlayerCollide.tokens < 25) {
-			treeTimer = Random.Range (0.5f, 2.5f);
+		if (PlayerCollide.tokens < 10) {
+			treeTimer = Random.Range (1.5f, 5.0f);
 		}
-		if (PlayerCollide.tokens > 24 && PlayerCollide.tokens < 50) {
-			treeTimer = Random.Range (0.3f, 2.0f);
+		if (PlayerCollide.tokens > 20 && PlayerCollide.tokens < 25) {
+			treeTimer = Random.Range (1.0f, 2.5f);
 		}
-		if (PlayerCollide.tokens > 49 && PlayerCollide.tokens < 75) {
-			treeTimer = Random.Range (0.2f, 1.5f);
+		if (PlayerCollide.tokens > 30 && PlayerCollide.tokens < 50) {
+			treeTimer = Random.Range (0.5f, 2.0f);
 		}
-		if (PlayerCollide.tokens > 74 && PlayerCollide.tokens < 100) {
+		if (PlayerCollide.tokens > 40 && PlayerCollide.tokens < 75) {
+			treeTimer = Random.Range (0.3f, 1.5f);
+		}
+		if (PlayerCollide.tokens > 50 && PlayerCollide.tokens < 100) {
 			treeTimer = Random.Range (0.2f, 1.0f);
 		}
-		if (PlayerCollide.tokens > 99){
+		if (PlayerCollide.tokens > 60){
 			treeTimer = Random.Range (0.1f, 0.8f);
 		}
 		tre.GetComponent<Rigidbody2D> ().gravityScale = Random.Range (1, 3);
@@ -123,7 +138,7 @@ public class ObjectiveSpawner : MonoBehaviour {
 		treeTimer = 100;
 		tokenTimer = 1000;
 		gapTreesTimer = 1000;
-		int numTreeSets = Random.Range (1, 5);
+		int numTreeSets = Random.Range (1, 3);
 		for (int v = 0; v < numTreeSets; v++) {
 			yield return new WaitForSeconds (1);
 			int xPos = -10;
@@ -131,7 +146,7 @@ public class ObjectiveSpawner : MonoBehaviour {
 			GameObject gapTreeGroup = new GameObject ();
 			gapTreeGroup.name = "Gap Tree Group";
 			//put in audio stuff
-			for (int i = 0; i < 20; i++) {
+			for (int i = 0; i < 17; i++) {
 				GameObject tre = Instantiate (trees [(Random.Range (0, trees.Length))], new Vector2 (xPos, 5), Quaternion.identity) as GameObject;
 				//add some more audio
 				Destroy (tre.GetComponent<Rigidbody2D> ());
@@ -139,7 +154,7 @@ public class ObjectiveSpawner : MonoBehaviour {
 					xPos++;
 				} else {
 					GameObject e = Instantiate (gapEmpty, new Vector2 (xPos + 1, 5), Quaternion.identity) as GameObject;
-					xPos = xPos + 2;
+					xPos = xPos + 3;
 					e.gameObject.transform.parent = gapTreeGroup.gameObject.transform;
 				}
 				tre.gameObject.transform.parent = gapTreeGroup.gameObject.transform;
@@ -161,6 +176,6 @@ public class ObjectiveSpawner : MonoBehaviour {
 		bigTreeTimer = Random.Range (15.0f, 45.0f);
 		treeTimer = Random.Range (2.0f, 5.0f);
 		tokenTimer = Random.Range (0.5f, 1.0f);
-		gapTreesTimer = Random.Range (30.0f, 75.0f);
+		gapTreesTimer = Random.Range (25.0f, 75.0f);
 	}
 }
