@@ -17,7 +17,7 @@ public class GameInit : MonoBehaviour {
 	public GameObject mainLogo;
 	public GameObject speechBubble;
 	//public GameObject menuBottomText;
-	private bool showScore = false;
+	//private bool showScore = false;
 	//private string LeaderBoard1ID = "Kuura_Highscore_LeaderBoard_1:ID";
 	
 

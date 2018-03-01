@@ -15,7 +15,7 @@ public class ScrollingBG : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		float newPos = Mathf.Repeat (Time.time * speed, 11);
+		float newPos = Mathf.Repeat (Time.time * speed, 11); //how far away upper pic is from original bg
 		transform.position = startPos + Vector2.down * newPos;
 	}
 }

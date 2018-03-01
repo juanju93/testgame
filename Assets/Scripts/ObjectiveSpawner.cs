@@ -29,9 +29,9 @@ public class ObjectiveSpawner : MonoBehaviour {
 		bigTreeTimer = Random.Range (20.0f, 40.0f); //random times between when objects are spawning.
 		treeTimer = Random.Range (1.0f, 5.0f);
 		tokenTimer = Random.Range (1.0f, 2.0f);
-		gapTreesTimer = Random.Range (5.0f, 10.0f);
+		gapTreesTimer = Random.Range (30.0f, 90.0f);
 		bigTokenTimer = Random.Range (30.0f, 90.0f);
-		invincibilityTokenTimer = Random.Range (30.0f, 80.0f);
+		invincibilityTokenTimer = Random.Range (40.0f, 80.0f);
 		hearthTokenTimer = Random.Range (30.0f, 90.0f);
 	}
 
@@ -83,7 +83,7 @@ public class ObjectiveSpawner : MonoBehaviour {
 	}
 	void SpawnInvincibilityToken() {
 		GameObject inviTok = Instantiate (invinclibilityToken, new Vector2 (Random.Range (-6, 6), 6), Quaternion.identity) as GameObject;
-		invincibilityTokenTimer = Random.Range (15.0f, 40.0f);	
+		invincibilityTokenTimer = Random.Range (40.0f, 80.0f);	
 	}
 
 	void SpawnTree(){
