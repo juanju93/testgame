@@ -132,7 +132,7 @@ public class PlayerCollide : MonoBehaviour {
 		isInvin = true;
 		gameObject.GetComponent<SpriteRenderer> ().color = new Color (1.0f, 1.0f, 1.0f, 0.5f);
 		gameObject.GetComponent<AudioSource> ().pitch = 1.2f;
-		Time.timeScale = 1.25f;
+		//Time.timeScale = 1.25f;
 		yield return new WaitForSeconds (12);
 		for (int i = 0; i < 10; i++){
 			gameObject.GetComponent<SpriteRenderer> ().color = new Color (1.0f, 1.0f, 1.0f, 1.0f);
@@ -142,7 +142,7 @@ public class PlayerCollide : MonoBehaviour {
 		}
 		gameObject.GetComponent<SpriteRenderer> ().color = new Color (1.0f, 1.0f, 1.0f, 1.0f);
 		gameObject.GetComponent<AudioSource> ().pitch = 1.0f;
-		Time.timeScale = 1.0f;
+		//Time.timeScale = 1.0f;
 		canTakeDamage = true;
 		isInvin = false;
 	}

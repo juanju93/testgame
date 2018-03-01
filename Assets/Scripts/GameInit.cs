@@ -61,11 +61,11 @@ public class GameInit : MonoBehaviour {
 			}
 			if (gameStarted == false && belleLogo.GetComponent<Collider2D> () == Physics2D.OverlapPoint (touchPos)) {
 				Application.OpenURL ("http://bellegames.net/belledot/"); //this makes icon clickable and opens website!
-			//}
+			}
 			//if (gameStarted == false && crownRankingLogo.GetComponent<Collider2D> () == Physics2D.OverlapPoint (touchPos)) {  
 				//Social.ReportScore ((long)DataManagement.datamanagement.tokensHighScore, LeaderBoard1ID, HighScoreCheck);
 				//Social.ShowLeaderboardUI ();
-			}
+			//}
 		}
 
 		//PC
